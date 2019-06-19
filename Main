@@ -1,0 +1,149 @@
+#Importing necessary packages.
+
+import pandas as pd
+from tkinter import *
+import tkinter as tk
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import geopandas as gpd
+import warnings
+
+#TODO get live weather updates for each airport and place it on map of Canadian Airports.
+
+
+#reading from CSV to pandas dataframes.
+data = pd.read_csv('aircraftEventInformation.csv')
+data2 = pd.read_csv('airports.csv').dropna()
+
+
+# years = data['CADORSNUMBER'] = data['CADORSNUMBER'].apply(lambda x: int(str(x)[:4]))
+# counts = data['EVENT_NAME_ENM'].value_counts()
+
+
+
+
+
+
+#TKinter Height and Width Properties
+HEIGHT = 1000
+WIDTH=1200
+
+#Options for Dropdown Menu
+#More options and visualizations will be added later.
+OPTIONS = [
+
+    "Aircraft Event Information",
+    #Add weather information in real time in the future to the airports map.
+    "Canadian Airports"
+
+
+
+
+]
+
+#Method get_about
+#Parameters = none
+#Called on press of the about button on the GUI
+#Purpose: Initializes a new window in Tkinter that displays a small explanation about the application.
+def get_about():
+    window = tk.Toplevel(root)
+    window.title("About")
+    T = tk.Text(window, height=10, width=50)
+    T.pack()
+    T.insert(tk.END, "This is a simple application processing several \n different datasets from Stats Canada. \n I have created a simple tool for now that \n will be, further developed to become an \n analysis tool.")
+
+
+#Method get_visualization
+#Parameters = None
+#Called on press of the get visualization button in the GUI
+#Purpose: Displays the approriate visualization based on the user's selection from the drop down menu.
+def get_visualization(selection):
+    print("value is:" + selection)
+    if(selection == "Aircraft Event Information"):
+        x=10
+        df1 = data['EVENT_NAME_ENM'].value_counts()[:x]
+        figure = plt.Figure(figsize=(15, 12))
+        AX = figure.add_subplot(111)
+        pie = FigureCanvasTkAgg(figure, label)
+        pie.get_tk_widget().pack(side=tk.LEFT, fill=tk.BOTH)
+        df1.plot(kind="pie", ax=AX, legend=False)
+        AX.set_title("10 Most Prevalent Aircraft Incident Types 1998-2019")
+        AX.set_xlabel("")
+        AX.set_ylabel("")
+
+
+
+    elif(selection == "Canadian Airports"):
+        warnings.filterwarnings('ignore')
+        figure = plt.figure(figsize=(15,12))
+        AX = figure.add_subplot(111)
+        plt.style.use('bmh')
+        map = FigureCanvasTkAgg(figure, label)
+        map.get_tk_widget().pack(side=tk.LEFT, fill=tk.BOTH)
+        canada = gpd.read_file("Canada.shx")
+        canada = canada.to_crs(crs="+proj=longlat +datum=WGS84 +no_defs")
+        canada.plot(ax=AX, legend=FALSE, color='r')
+        plt.scatter(x=data2['LONGITUDE1'], y=data2['LATITUDE1'], c='b')
+        plt.show()
+
+
+
+
+
+
+
+
+#Initializing TKinter Root
+root = tk.Tk()
+#Setting Title of Window
+root.title("Stats Canada")
+#Initializing a canvas to store elements within.
+canvas = tk.Canvas(root,height= HEIGHT, width=WIDTH)
+#Packing the canvas puts the  element on the screen
+canvas.pack()
+
+#setting background image.
+backgroundImage = tk.PhotoImage(file='image.png')
+#Creating background label to place the image within.
+background_label =tk.Label(root, image=backgroundImage)
+#Placing the background label (this makes it appear on the screen at cooridnates (0,0) Refer to TKinter documenation regarding the coordinate system they use.
+background_label.place(x=0, y=0)
+
+#Creaing a frame and placing it in root. This frame contains the drop down menu and a button (get visualization)
+frame=tk.Frame(root, bg='#B3CDFA', bd=4)
+frame.place(relx=0.5, rely=0.1, relwidth=0.75, relheight=0.1, anchor='n')
+
+#creating drop down menu
+dropDownV = StringVar(root)
+#Setting options for our dropdown menu (OPTIONS is initialized above)
+dropDownV.set(OPTIONS[0])
+
+#Drop down menu options and placement.
+entry= tk.OptionMenu(frame, dropDownV, *OPTIONS)
+entry.config(font=40)
+menu = frame.nametowidget(entry.menuname)
+menu.config(font=40)
+entry.place(relwidth=0.65, relheight=1)
+#Creating Get Visuaization button, on click the get_visualizaiton method is called and executed.
+button = tk.Button(frame, text="Get Visualization",font=40, command= lambda :get_visualization(dropDownV.get()))
+button.place(relx=0.7, relheight=1, relwidth= 0.30)
+
+#Creating a frame and a label to place the visualizations within.
+lFrame= tk.Frame(root, bg='#80c1ff', bd=10)
+lFrame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.7, anchor='n')
+label =tk.Label(lFrame)
+label.place( relwidth=1, relheight=1)
+
+#Initializing and placing the about button.
+buttonAbout = tk.Button(root, text="About", font=40, command=lambda :get_about())
+buttonAbout.place(relx=0.005, rely=0.95, relwidth=0.1, relheight=0.05)
+
+#End of TKinter MainLoop
+root.mainloop()
+
+
+
+
+
+
+

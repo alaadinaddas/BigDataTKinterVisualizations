@@ -1,0 +1,95 @@
+﻿ID,IATA,ICAO,AIRPORT_TY,AÉROPORT_T,AIRPORT,LATITUDE1,LONGITUDE1,PROVINCE,CITY_NAME
+177,YXY,CYXY,Control Tower,Tour de contrôle,Erik Nielsen Whitehorse,60.716666,-135.066666,Northwest Territories,Whitehorse
+185,YYJ,CYYJ,Control Tower,Tour de contrôle,Victoria International,48.650000,-123.433333,British Columbia,Victoria
+218,YCF,CYFC,Control Tower,Tour de contrôle,Fredericton International,45.868889,-66.537222,New Brunswick,Fredericton
+188,YYT,CYYT,Control Tower,Tour de contrôle,St John's Intl,47.616666,-52.750000,Newfoundland and Labrador,Saint John
+121,YQX,CYQX,Control Tower,Tour de contrôle,Gander International,48.933333,-54.566666,Newfoundland and Labrador,Gander
+71,YHZ,CYHZ,Control Tower,Tour de contrôle,Halifax Robert Stanfield International,44.883333,-63.516666,Nova Scotia,Halifax
+114,YQM,CYQM,Control Tower,Tour de contrôle,Moncton/Greater Moncton International,46.116666,-64.683333,New Brunswick,Moncton
+3,3YRC,CYRC,Control Tower,Tour de contrôle,Chicoutimi/St-Honore,48.516666,-71.050000,Quebec,Chicoutimi
+107,YQB,CYQB,Control Tower,Tour de contrôle,Québec City Jean Lesage International Airport,46.800000,-71.400000,Quebec,Quebec City
+15,NULL,CYJN,Control Tower,Tour de contrôle,St-Jean,45.283333,-73.266666,Quebec,Saint Jean
+69,YHU,CYHU,Control Tower,Tour de contrôle,Montréal/St-Hubert,45.516666,-73.416666,Quebec,Longueuil
+146,YUL,CYUL,Control Tower,Tour de contrôle,Montréal-Pierre Elliott Trudeau International,45.466666,-73.733333,Quebec,Dorval
+98,YOW,CYOW,Control Tower,Tour de contrôle,Ottawa/Macdonald-Cartier International,45.316666,-75.666666,Ontario,Ottawa
+97,YOO,CYOO,Control Tower,Tour de contrôle,Oshawa,43.916666,-78.900000,Ontario,Oshawa
+80,YKZ,CYKZ,Control Tower,Tour de contrôle,Toronto/Buttonville Municipal,43.866666,-79.366666,Ontario,Markham
+144,YTZ,CYTZ,Control Tower,Tour de contrôle,Toronto City Centre,43.627888,-79.396101,Ontario,Toronto
+191,YYZ,CYYZ,Control Tower,Tour de contrôle,Toronto Pearson International,43.683333,-79.633333,Ontario,Mississauga
+67,YHM,CYHM,Control Tower,Tour de contrôle,Hamilton,43.166666,-79.933333,Ontario,Hamilton
+78,YKF,CYKF,Control Tower,Tour de contrôle,Kitchener/Waterloo,43.450000,-80.383333,Ontario,Waterloo
+175,YXU,CYXU,Control Tower,Tour de contrôle,London,43.033333,-81.150000,Ontario,London
+110,YQG,CYQG,Control Tower,Tour de contrôle,Windsor,42.266666,-82.966666,Ontario,Windsor
+19,YAM,CYAM,Control Tower,Tour de contrôle,Sault Ste Marie,46.483333,-84.516666,Ontario,Sault Sainte Marie
+118,YQT,CYQT,Control Tower,Tour de contrôle,Thunder Bay,48.366666,-89.316666,Ontario,Thunder Bay
+1,2DCI,CYAV,Control Tower,Tour de contrôle,Winnipeg/St Andrews,50.050000,-97.016666,Manitoba,Winnipeg
+157,YWG,CYWG,Control Tower,Tour de contrôle,Winnipeg James Armstrong Richardson International,49.916666,-97.250000,Manitoba,Winnipeg
+117,YQR,CYQR,Control Tower,Tour de contrôle,Regina International,50.433333,-104.666666,Saskatchewan,Regina
+165,YXE,CYXE,Control Tower,Tour de contrôle,Saskatoon John G. Diefenbaker International,52.166666,-106.700000,Saskatchewan,Saskatoon
+87,YMM,CYMM,Control Tower,Tour de contrôle,Fort McMurray,56.650000,-111.216666,Alberta,Fort McMurray
+164,YXD,CYXD,Control Tower,Tour de contrôle,Edmonton City Centre (Blatchford Field),53.566666,-113.516666,Alberta,Edmonton
+16,NULL,CZVL,Control Tower,Tour de contrôle,Edmonton/Villeneuve,53.666666,-113.850000,Alberta,Saint Albert
+43,YEG,CYEG,Control Tower,Tour de contrôle,Edmonton Intl,53.316666,-113.583333,Alberta,Edmonton
+192,YZF,CYZF,Control Tower,Tour de contrôle,Yellowknife,62.466666,-114.433333,Yukon,Yellowknife
+179,YYC,CYYC,Control Tower,Tour de contrôle,Calgary International,51.116666,-114.016666,Alberta,Calgary
+14,NULL,CYBW,Control Tower,Tour de contrôle,Calgary/Springbank,51.100000,-114.366666,Alberta,Calgary
+173,YXS,CYXS,Control Tower,Tour de contrôle,Prince George,53.883333,-122.683333,British Columbia,Prince George
+83,YLW,CYLW,Control Tower,Tour de contrôle,Kelowna,49.950000,-119.383333,British Columbia,Kelowna
+176,YXX,CYXX,Control Tower,Tour de contrôle,Abbotsford,49.033333,-122.366666,British Columbia,Abbotsford
+84,YLY,CYNJ,Control Tower,Tour de contrôle,Langley,49.100000,-122.616666,British Columbia,Langley
+4,CXH,CYHC,Control Tower,Tour de contrôle,Vancouver Harbour,49.283333,-123.100000,British Columbia,Vancouver
+155,YVR,CYVR,Control Tower,Tour de contrôle,Vancouver International,49.200000,-123.183333,British Columbia,Richmond
+102,YPK,CYPK,Control Tower,Tour de contrôle,Pitt Meadows,49.200000,-122.700000,British Columbia,Pitt Meadows
+199,ZBB,CZBB,Control Tower,Tour de contrôle,Boundary Bay,49.066666,-123.000000,British Columbia,Ladner
+26,YBL,CYBL,Flight Service Station,Station d'information de vol,Campbell River,49.950000,-125.266666,British Columbia,Campbell River
+30,YCD,CYCD,Flight Service Station,Station d'information de vol,Nanaimo,49.050000,-123.866666,British Columbia,Nanaimo
+158,YWH,CYWH,Flight Service Station,Station d'information de vol,Victoria Harbour,48.416666,-123.366666,British Columbia,Victoria
+182,YYF,CYYF,Flight Service Station,Station d'information de vol,Penticton,49.466666,-119.600000,British Columbia,Penticton
+31,YCG,CYCG,Flight Service Station,Station d'information de vol,Castlegar,49.300000,-117.633333,British Columbia,Castlegar
+105,YPR,CYPR,Flight Service Station,Station d'information de vol,Prince Rupert,54.283333,-130.450000,British Columbia,Prince Rupert
+174,YXT,CYXT,Flight Service Station,Station d'information de vol,Terrace,54.466666,-128.583333,British Columbia,Terrace
+195,YZT,CYZT,Flight Service Station,Station d'information de vol,Port Hardy,50.683333,-127.366666,British Columbia,Port Hardy
+180,YYD,CYYD,Flight Service Station,Station d'information de vol,Smithers,54.816666,-127.183333,British Columbia,Smithers
+154,YVQ,CYVQ,Flight Service Station,Station d'information de vol,Norman Wells,65.283333,-126.800000,Yukon,Norman Wells
+161,YWL,CYWL,Flight Service Station,Station d'information de vol,Williams Lake,52.183333,-122.050000,British Columbia,Williams Lake
+167,YXJ,CYXJ,Flight Service Station,Station d'information de vol,Fort St John,56.233333,-120.733333,British Columbia,Fort Saint John
+119,YQU,CYQU,Flight Service Station,Station d'information de vol,Grande Prairie,55.183333,-118.883333,Alberta,Grande Prairie
+101,YPE,CYPE,Flight Service Station,Station d'information de vol,Peace River,56.233333,-117.450000,Alberta,Peace River
+181,YYE,CYYE,Flight Service Station,Station d'information de vol,Fort Nelson,58.833333,-122.600000,British Columbia,Fort Nelson
+76,YKA,CYKA,Flight Service Station,Station d'information de vol,Kamloops,50.700000,-120.450000,British Columbia,Kamloops
+163,YXC,CYXC,Flight Service Station,Station d'information de vol,Cranbrook/Canadian Rockies,49.616666,-115.783333,British Columbia,Cranbrook
+113,YQL,CYQL,Flight Service Station,Station d'information de vol,Lethbridge,49.633333,-112.800000,Alberta,Lethbridge
+166,YXH,CYXH,Flight Service Station,Station d'information de vol,Medicine Hat,50.016666,-110.716666,Alberta,Medicine Hat
+196,YZU,CYZU,Flight Service Station,Station d'information de vol,Whitecourt,54.133333,-115.783333,Alberta,Whitecourt
+109,YQF,CYQF,Flight Service Station,Station d'information de vol,Red Deer Regional,52.166666,-113.883333,Alberta,Red Deer
+82,YLL,CYLL,Flight Service Station,Station d'information de vol,Lloydminster,53.316666,-110.066666,Saskatchewan,Lloydminster
+99,YPA,CYPA,Flight Service Station,Station d'information de vol,Prince Albert (Glass Field),53.216666,-105.666666,Saskatchewan,Prince Albert
+150,YVC,CYVC,Flight Service Station,Station d'information de vol,La Ronge (Barber Field),55.150000,-105.266666,Saskatchewan,La Ronge
+112,YQK,CYQK,Flight Service Station,Station d'information de vol,Kenora,49.783333,-94.366666,Ontario,Kenora
+169,YXL,CYXL,Flight Service Station,Station d'information de vol,Sioux Lookout,50.116666,-91.900000,Ontario,Sioux Lookout
+141,YTH,CYTH,Flight Service Station,Station d'information de vol,Thompson,55.800000,-97.866666,Manitoba,Thompson
+186,YYQ,CYYQ,Flight Service Station,Station d'information de vol,Churchill,58.733333,-94.066666,Manitoba,Churchill
+27,YBR,CYBR,Flight Service Station,Station d'information de vol,Brandon Municipal,49.916666,-99.950000,Manitoba,Brandon
+96,YOJ,CYOJ,Flight Service Station,Station d'information de vol,High Level,58.616666,-117.166666,Alberta,High Level
+245,YCM,CYSN,Flight Service Station,Station d'information de vol,St. Catharines Niagara District,43.191667,-79.171111,Ontatio,Niagra-on-the-lake
+160,YWK,CYWK,Flight Service Station,Station d'information de vol,Wabush,52.916666,-66.866666,Newfoundland and Labrador,Wabush
+38,YDF,CYDF,Flight Service Station,Station d'information de vol,Deer Lake,49.216666,-57.383333,Newfoundland and Labrador,Deer Lake
+183,YYG,CYYG,Flight Service Station,Station d'information de vol,Charlottetown,46.283333,-63.116666,Prince Edward Island,Charlottetown
+197,YZV,CYZV,Flight Service Station,Station d'information de vol,Sept-Iles,50.216666,-66.266666,Quebec,Seven Islands
+134,YSJ,CYSJ,Flight Service Station,Station d'information de vol,Saint John,45.316666,-65.883333,New Brunswick,Saint John
+49,YFC,CYFC,Flight Service Station,Station d'information de vol,Fredericton International,45.866666,-66.533333,New Brunswick,Fredericton
+46,YEV,CYEV,Flight Service Station,Station d'information de vol,Inuvik (Mike Zubko),68.300000,-133.483333,Yukon,Inuvik
+48,YFB,CYFB,Flight Service Station,Station d'information de vol,Iqaluit,63.750000,-68.550000,Nunavut,Iqaluit
+153,YVP,CYVP,Flight Service Station,Station d'information de vol,Kuujjuaq,58.100000,-68.433333,Quebec,Kuujjuaq
+54,YGL,CYGL,Flight Service Station,Station d'information de vol,La Grande Riviere,53.633333,-77.700000,Quebec,Radisson
+190,YYY,CYYY,Flight Service Station,Station d'information de vol,Mont-Joli,48.616666,-68.200000,Quebec,Mont Jolie
+90,YMX,CYMX,Flight Service Station,Station d'information de vol,Montreal (Mirabel),45.683333,-74.033333,Quebec,Mirabel
+152,YVO,CYVO,Flight Service Station,Station d'information de vol,Val-d'Or,48.050000,-77.783333,Quebec,Bourlamaque
+149,YUY,CYUY,Flight Service Station,Station d'information de vol,Rouyn-Noranda,48.200000,-78.833333,Quebec,McWatters
+143,YTS,CYTS,Flight Service Station,Station d'information de vol,Timmins Victor M. Power,48.566666,-81.383333,Ontario,Timmins
+130,YSB,CYSB,Flight Service Station,Station d'information de vol,Sudbury,46.633333,-80.800000,Ontario,Falconbridge
+129,YRT,CYRT,Flight Service Station,Station d'information de vol,Rankin Inlet,62.816666,-92.116666,Nunavut,Rankin Inlet
+53,YGK,CYGK,Flight Service Station,Station d'information de vol,Kingston,44.233333,-76.600000,Ontario,Kingston
+92,YND,CYND,Flight Service Station,Station d'information de vol,Ottawa/Gatineau,45.516666,-75.566666,Quebec,Gatineau
+178,YYB,CYYB,Flight Service Station,Station d'information de vol,North Bay,46.366666,-79.416666,Ontario,North Bay
+57,YGR,CYGR,Flight Service Station,Station d'information de vol,Iles-de-la-Madeleine,47.416666,-61.783333,Quebec,Iles-de-la-Madeleine
